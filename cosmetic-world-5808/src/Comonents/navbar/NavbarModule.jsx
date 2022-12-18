@@ -10,7 +10,7 @@ export default function Navbar() {
     
     return (
         <Box py='20'>
-           <Flex alignItems='center' gap='2'>
+           <Flex alignItems='center' gap='2' flexWrap='wrap'>
              <Logo />
              <Spacer />
              <SearchBox />
