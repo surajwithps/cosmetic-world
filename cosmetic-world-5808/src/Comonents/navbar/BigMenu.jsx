@@ -7,7 +7,7 @@ function BigMenu({list}) {
     <Box>
 
     <Menu isOpen={isOpen}>
-  <MenuButton as={Button} colorScheme='pink'   onMouseEnter={onOpen} onMouseLeave={onClose} width='80px' padding='10px' border='none'>
+  <MenuButton as={Button} colorScheme='blue'   onMouseEnter={onOpen} onMouseLeave={onClose}  padding='3px' margin='0' border='none'>
     {list}
   </MenuButton>
   <MenuList width='auto' onMouseEnter={onOpen} onMouseLeave={onClose}>
@@ -17,7 +17,7 @@ function BigMenu({list}) {
     </MenuGroup>
     <MenuDivider />
     <MenuGroup title='Help'>
-      <MenuItem>Docs</MenuItem>
+      <MenuItem>hell</MenuItem>
       <MenuItem>FAQ</MenuItem>
     </MenuGroup>
   </MenuList>
