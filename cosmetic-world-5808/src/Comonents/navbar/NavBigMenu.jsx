@@ -6,13 +6,13 @@ const navListHeading = ["Brands", "Holiday Shop", "Browse By", "BestSellers", "S
 
   return (
       
-      <Flex justifyContent='center' alignItems='center' gap='20px'>
+      <Flex justifyContent='center' alignItems='center' gap='20px'   position="relative" zIndex="dropdown">
         {navListHeading.map((item)=><BigMenu key={item} list={item}/>)}
       </Flex>
 
+)
+}
        
 
-  )
-}
 //big menu is component need to map to create all hover big menus
 export default NavBigMenu
